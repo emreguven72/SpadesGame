@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2EFF09"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/card11"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:onClick="kartTıkla"
+        android:tag="11"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/card10"
+        app:layout_constraintStart_toEndOf="@+id/card10"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card13"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:onClick="kartTıkla"
+        android:tag="13"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/card12"
+        app:layout_constraintStart_toEndOf="@+id/card12"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/middleCard1"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="312dp"
+        android:tag="4"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/middleCard2"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="-20dp"
+        android:tag="3"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/middleCard1"
+        app:layout_constraintStart_toStartOf="@+id/middleCard1"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/middleCard3"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="-20dp"
+        android:tag="2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/middleCard2"
+        app:layout_constraintStart_toStartOf="@+id/middleCard2"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/middleCard4"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="-20dp"
+        android:tag="1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/middleCard3"
+        app:layout_constraintStart_toStartOf="@+id/middleCard3"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card10"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:onClick="kartTıkla"
+        android:tag="10"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/card9"
+        app:layout_constraintStart_toEndOf="@+id/card9"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card12"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:onClick="kartTıkla"
+        android:tag="12"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/card11"
+        app:layout_constraintStart_toEndOf="@+id/card11"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card9"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:onClick="kartTıkla"
+        android:tag="9"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/card8"
+        app:layout_constraintStart_toEndOf="@+id/card8"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card7"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="kartTıkla"
+        android:tag="7"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card8"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:onClick="kartTıkla"
+        android:tag="8"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/card7"
+        app:layout_constraintStart_toEndOf="@+id/card7"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card1"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="kartTıkla"
+        android:tag="1"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/card7"
+        app:layout_constraintStart_toStartOf="@+id/card7"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card5"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:onClick="kartTıkla"
+        android:tag="5"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/card4"
+        app:layout_constraintStart_toEndOf="@+id/card4"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card2"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:onClick="kartTıkla"
+        android:tag="2"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/card1"
+        app:layout_constraintStart_toEndOf="@+id/card1"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card4"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:onClick="kartTıkla"
+        android:tag="4"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/card3"
+        app:layout_constraintStart_toEndOf="@+id/card3"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card6"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:onClick="kartTıkla"
+        android:tag="6"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/card5"
+        app:layout_constraintStart_toEndOf="@+id/card5"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/card3"
+        android:layout_width="48dp"
+        android:layout_height="73dp"
+        android:onClick="kartTıkla"
+        android:tag="3"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/card2"
+        app:layout_constraintStart_toEndOf="@+id/card2"
+        app:srcCompat="@drawable/bos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/macaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:minHeight="48dp"
+        android:onClick="kozSeç"
+        android:text="maca"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kupaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:minHeight="48dp"
+        android:onClick="kozSeç"
+        android:text="kupa"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/macaText"
+        app:layout_constraintTop_toTopOf="@+id/macaText" />
+
+    <TextView
+        android:id="@+id/sinekText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:minHeight="48dp"
+        android:onClick="kozSeç"
+        android:text="sinek"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/kupaText"
+        app:layout_constraintTop_toTopOf="@+id/kupaText" />
+
+    <TextView
+        android:id="@+id/karoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:onClick="kozSeç"
+        android:text="karo"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/sinekText"
+        app:layout_constraintTop_toTopOf="@+id/sinekText" />
+
+    <TextView
+        android:id="@+id/sonucText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:onClick="oyunuYenidenBaşlat"
+        android:text="Yeniden Başlat"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kozText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/p4PuanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:text="Puan: 0"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/p2PuanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:text="Puan: 0"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/p3PuanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puan: 0"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/p1PuanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:text="Puan: 0"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
